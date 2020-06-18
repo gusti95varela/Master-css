@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Proyecto CSS</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/maquetacion-1/img/logo.png">
+</head>
+
+<body>
+    <!-- Inicio de la cabecera -->
+    <header id="header">
+        <div id="logotipo">
+            <a href="index.html"><img src="img/logo.png" alt="logotipo de la web"></a>
+        </div>
+        <h1><a href="index.html">Master en CSS</a></h1>
+    </header>
+    <!-- Fin de la cabecera -->
+
+    <!-- Menu de navegacion -->
+    <nav id="nav">
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+
+            </li>
+            <li>
+                <a href="contenidos.html">Contenidos</a>
+
+            </li>
+            <li>
+                <a href="requerimientos.html">Requerimientos</a>
+
+            </li>
+            <li>
+                <a href="lenguajes.html">Lenguajes</a>
+                <ul>
+                    <li>
+                        <a href="#">HTML</a>
+                    </li>
+                    <li>
+                        <a href="#">CSS</a>
+                    </li>
+                    <li>
+                        <a href="#">JavaScript</a>
+                    </li>
+                </ul>
+
+            </li>
+            <li>
+                <a href="frameworks.html">Frameworks</a>
+                <ul>
+                    <li>
+                        <a href="#">LESS</a>
+                    </li>
+                    <li>
+                        <a href="#">SASS</a>
+                    </li>
+                    <li>
+                        <a href="#">Bootstrap 4</a>
+                    </li>
+                </ul>
+
+            </li>
+            <li>
+                <a href="proyectos.html">Proyectos</a>
+
+            </li>
+            <li>
+                <a href="instructor.html">Instuctor</a>
+
+            </li>
+            <li>
+                <a href="index.html">Blog</a>
+
+            </li>
+            <li>
+                <a href="index.html">Contacto</a>
+
+            </li>
+        </ul>
+    </nav>
+    <!-- Fin del menu de navegacion -->
+
+    <!-- Inicio del contenido central -->
+    <div id="content">
+        <!-- Inicio de la barra lateral -->
+        <aside id="aside">
+            <div class="widget" id="login">
+                <h3>Entrar a la web</h3>
+                <form>
+                    <label>Usuario:</label>
+                    <input type="text">
+
+                    <label>Contraseña:</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar">
+                </form>
+                <a href="#">Zona para alumnos</a>
+                <a href="#">Zona para profesores</a>
+                <a href="#">Zona para calificaciones</a>
+            </div>
+
+            <div class="widget" id="login">
+                <h3 class="blue">Aula virtual 1</h3>
+                <form>
+                    <label>Nombre de usuario</label>
+                    <input type="text">
+
+                    <label>Contraseña:</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+
+            <div class="widget" id="login">
+                <h3 class="red">Aula virtual 2</h3>
+                <form>
+                    <label>Nombre de usuario</label>
+                    <input type="text">
+
+                    <label>Contraseña:</label>
+                    <input type="password">
+
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
+
+            <div class="widget" id="login">
+                <h3>Enlaces de interés</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/gustavo-varela/">Perfil de LinkedIn</a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/gusti95varela/Angular-project">Proyecto Angular</a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/gusti95varela/projects-prop">Proyecto JavaScript</a>
+                    </li>
+                </ul>
+
+            </div>
+        </aside>
+
+        <!-- Fin de la barra lateral -->
+
+        <!-- Inicio de las secciones -->
+        <div id="sections">
+
+            <section id="frontend">
+
+                <span class="stickers">
+                    <img class="stickerOne" src="/maquetacion-1/img/scotch.png">
+                    <img class="stickerTwo" src="/maquetacion-1/img/scotch.png">
+                </span>
+
+                <h2 class="titulo">Noticias de Front-end</h2>
+
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de la entrada:</a>
+                        La web es un universo que evoluciona extremadamente rápido. Una parte importante de nuestro
+                        trabajo como desarrolladores front-end es mantenerse actualizado y estar en contacto con las
+                        nuevas herramientas, las tendencias y los flujos de trabajo.
+
+                        Cientos de artículos son publicados todos los días, pero es imposible que puedas leer cada uno
+                        de ellos. Creemos que deberías tener una estrategia, por eso creamos esta receta.
+
+                    <ol>
+                        <li>
+                            <a href="#">Sigue gente cool</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Encuentra las mejores fuentes</a>
+                        </li>
+
+                        <li>
+                            <a href="#"> Asiste a conferencias</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Consigue tus propias fuentes</a>
+                        </li>
+                    </ol>
+
+                    </p>
+                </article>
+            </section>
+
+            <section id="backend">
+
+                <span class="stickers">
+                    <img class="stickerOne" src="/maquetacion-1/img/scotch.png">
+                    <img class="stickerTwo" src="/maquetacion-1/img/scotch.png">
+                </span>
+
+                <h2 class="titulo red">Noticias del Back-end</h2>
+
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de la entrada:</a>
+                        cuando desarrollamos un servicio backend construyendo un API, nos aseguramos que se pueda
+                        consumir desde cualquier sistema o cliente. El API no devuelve más que datos, que están
+                        desacoplados a cualquier modo de visualización. Si estamos implementando una web, consumiremos
+                        el API desde cualquiera de los frameworks o librerías Javascript populares, como AngularJS,
+                        Polymer o ReactJS. También se podrán consumir los servicios del API desde aplicaciones
+                        desarrolladas en Java para Android o Swift/Objective C para iOS, por ejemplo.
+
+                        Dentro de las alternativas de construcción de un API, REST es una que simplifica mucho el
+                        funcionamiento, dado que se elimina todo lo relacionado al estado de la aplicación. Aunque REST
+                        no almacena ninguna información de la sesión de los usuarios, esto es algo que se resuelve
+                        mediante un token que el cliente debe enviar al servidor en cada solicitud que se realice.
+                    </p>
+                </article>
+            </section>
+
+            <section id="programadores">
+
+                <span class="stickers">
+                    <img class="stickerOne" src="/maquetacion-1/img/scotch.png">
+                    <img class="stickerTwo" src="/maquetacion-1/img/scotch.png">
+                </span>
+
+                <h2 class="titulo orange">Noticias de Desarrollo</h2>
+
+                <article class="article">
+                    <span class="icon">a</span>
+                    <p>
+                        <a href="#">Titulo de la entrada:</a>
+                        El diseño web adaptable (RWD) o diseño responsivo, es una técnica de desarrollo web que permite
+                        optimizar la eficacia de la experiencia de navegación del usuario en diferentes tamaños de
+                        pantalla.
+
+                        La experiencia de visualización óptima se consigue con una fácil lectura y navegación a través
+                        de la modificación del tamaño y el desplazamiento de objetos del sitio web en una amplia gama de
+                        dispositivos. Por lo tanto, RWD combina tres conceptos a saber: anchos flexibles, imágenes y
+                        «media queries».
+
+                        «El diseño no es sólo lo que se ve y se siente. El diseño es “cómo funciona”.»
+
+                        Steve Jobs
+                    </p>
+                </article>
+            </section>
+        </div>
+
+        <aside id="frase">
+            Estamos como el amor que se echa a perder, violando todo lo que amamos para vivir.
+            <a href="#">Leer más frases </a>
+        </aside>
+
+        <div class="clearfix"></div>
+        <div id="history">
+            <a href="#">[Ver historico de noticias]</a>
+        </div>
+    </div>
+
+    <!-- Fin de las secciones -->
+    <!-- Fin del contenido central -->
+
+    <div class="clearfix"></div>
+    <footer id="footer">
+        <p>&copy; Desarrollado por Gustavo Varela</p>
+        <p><a href="https://www.linkedin.com/in/gustavo-varela/">LinkedIn</a></p>
+    </footer>
+</body>
+
+</html>
